@@ -1,28 +1,33 @@
 set nocompatible
-"filetype off 
+filetype off "required for Vundle
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-Bundle 'altercation/vim-colors-solarized' 
-Bundle 'gmarik/vundle' 
+Bundle 'gmarik/vundle'
+Bundle 'altercation/vim-colors-solarized'
 Bundle "daylerees/colour-schemes", { "rtp": "vim/" }
 Bundle 'derekwyatt/vim-scala'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'Scrooloose/nerdtree'
 Bundle 'rstacruz/sparkup'
 Plugin 'elzr/vim-json'
-
-filetype plugin indent on 
+Bundle 'ntpeters/vim-better-whitespace'
+Plugin 'vim-scripts/bufkill.vim'
+Plugin 'wesQ3/vim-windowswap'
+Plugin 'groenewege/vim-less'
+filetype plugin indent on
 
 set shiftwidth=4
 set tabstop=4
 set expandtab
 set laststatus=2
-set number 
+set number
 set ruler
 set showcmd
 syntax enable
+
+let NERDTreeShowHidden=1
 
 let g:molokai_original = 1
 colorscheme molokai
@@ -37,14 +42,19 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swap//
 set undodir=~/.vim/undo//
+set noswapfile
 
 set wildmenu
 set wildmode=full
 
 map <silent> <C-n> :NERDTreeFocus<CR>
+map <silent> <C-P> :CtrlPBuffer<CR>
+
+:imap ` <Esc>
+:vmap ` <Esc>
 
 :inoremap ( ()<Esc>i
-:inoremap { {<Return><Return>}<Left><Up><Tab>
+:inoremap { {<Return><Return>}<Left><Up>
 :inoremap [ []<Esc>i
 :inoremap ' ''<Esc>i
 :inoremap " ""<Esc>i

@@ -48,7 +48,7 @@ set wildmenu
 set wildmode=full
 
 map <silent> <C-n> :NERDTreeFocus<CR>
-map <silent> <C-P> :CtrlPBuffer<CR>
+map <silent> <C-S-p> :CtrlPBuffer<CR>
 
 :imap ` <Esc>
 :vmap ` <Esc>

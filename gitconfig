@@ -1,0 +1,26 @@
+[ui]
+	color = auto
+[color]
+	ui = auto
+[user]
+	name = Toni Suominen
+	email = toni.suominen@reaktor.fi
+[alias]
+[alias]
+	s = status
+	ps = push
+	b = branch
+	co = checkout
+	ci = commit
+	d = diff
+	l = log
+	a = add
+	dd = diff --cached
+	ll = log --oneline --graph --decorate --all
+	ft = fetch
+	rb = rebase
+	pm = pull
+	pr = pull --rebase
+[core]
+	editor = vim
+	autocrlf = false

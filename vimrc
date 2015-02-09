@@ -16,6 +16,8 @@ Bundle 'ntpeters/vim-better-whitespace'
 Plugin 'vim-scripts/bufkill.vim'
 Plugin 'wesQ3/vim-windowswap'
 Plugin 'groenewege/vim-less'
+Plugin 'guns/vim-clojure-static'
+Plugin 'tpope/vim-fireplace'
 filetype plugin indent on
 
 set shiftwidth=4

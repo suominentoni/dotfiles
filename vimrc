@@ -33,6 +33,8 @@ let NERDTreeShowHidden=1
 
 let g:molokai_original = 1
 colorscheme molokai
+hi IncSearch ctermfg=195
+hi IncSearch ctermbg=4
 
 set hlsearch
 set ignorecase

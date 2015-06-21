@@ -18,10 +18,18 @@ Plugin 'wesQ3/vim-windowswap'
 Plugin 'groenewege/vim-less'
 Plugin 'guns/vim-clojure-static'
 Plugin 'tpope/vim-fireplace'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+Plugin 'raichoo/haskell-vim'
+
+" file type based indentation
 filetype plugin indent on
 
+" how many columns text is indented with the reindent operations (<< and >>))
 set shiftwidth=4
+" how many columns a tab counts for
 set tabstop=4
+" hitting Tab in insert mode will produce the appropriate number of spaces.
 set expandtab
 set laststatus=2
 set number

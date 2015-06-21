@@ -65,11 +65,22 @@ set wildmode=full
 map <silent> <C-n> :NERDTreeFocus<CR>
 map <silent> <C-p> :CtrlPBuffer<CR>
 
-:imap ` <Esc>
-:vmap ` <Esc>
+" Switch windows with Ctrl+<h,j,k,l>
+map <C-J> <C-W>j
+map <C-K> <C-W>k
+map <C-H> <C-W>h
+map <C-L> <C-W>l
+
+":imap ` <Esc>
+":vmap ` <Esc>
+
+" Copy and paste from system clipboard with ctrl-c and ctrl-v
+vnoremap <C-c> :w !pbcopy<CR><CR>
+noremap <C-v> :r !pbpaste<CR><CR>
 
 :inoremap ( ()<Esc>i
-:inoremap { {<Return><Return>}<Left><Up>
+" :inoremap { {<Return><Return>}<Left><Up>
+:inoremap { {}<Esc>i
 :inoremap [ []<Esc>i
 :inoremap ' ''<Esc>i
 :inoremap " ""<Esc>i

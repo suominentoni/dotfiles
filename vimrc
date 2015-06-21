@@ -37,6 +37,9 @@ set ruler
 set showcmd
 syntax enable
 
+" Markdown syntax highlighting for .md files
+au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
+
 let NERDTreeShowHidden=1
 
 let g:molokai_original = 1

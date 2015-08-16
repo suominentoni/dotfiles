@@ -44,6 +44,7 @@ let NERDTreeShowHidden=1
 
 let g:molokai_original = 1
 colorscheme molokai
+" colorscheme summerfruit256 " Good light colorscheme
 hi IncSearch ctermfg=195
 hi IncSearch ctermbg=4
 

@@ -88,3 +88,7 @@ noremap <C-v> :r !pbpaste<CR><CR>
 
 :nnoremap <C-b> :bnext<CR>
 :nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>"
+
+" Insert new line without entering Insert mode
+nmap <CR> o<Esc>
+

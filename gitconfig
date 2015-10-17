@@ -21,6 +21,8 @@
 	rb = rebase
 	pm = pull
 	pr = pull --rebase
+	praise = blame
+	ftp = fetch --prune --all
 [core]
 	editor = vim
 	autocrlf = false

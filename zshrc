@@ -52,3 +52,6 @@ PROMPT='%F{3}%3~ ${vcs_info_msg_0_}%f> '
 #### original prompt ####
 
 ##PS1=$'%{\e[0;31m%}[%{\e[0;36m%}%n%{\e[0;32m%}@%{\e[0;35m%}%m%{\e[0;34m%}:%{\e[0;33m%}%.%{\e[0;31m%}]%{\e[0;0m%}%# '
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

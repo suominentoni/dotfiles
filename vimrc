@@ -38,6 +38,8 @@ set tabstop=2
 " hitting Tab in insert mode will produce the appropriate number of spaces.
 set expandtab
 
+set backspace=2
+
 " display status line always
 set laststatus=2
 set number

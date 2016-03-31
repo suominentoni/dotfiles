@@ -69,7 +69,8 @@ let g:mta_filetypes = {
     \ 'jinja' : 1,
     \}
 
-let g:airline_theme='monochrome'
+"let g:airline_theme='monochrome'
+let g:airline_theme='raven'
 
 let g:molokai_original = 1
 colorscheme molokai

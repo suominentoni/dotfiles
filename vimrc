@@ -107,6 +107,7 @@ set wildmode=full
 map <silent> <C-n> :NERDTreeFocus<CR>
 map <silent> <C-p> :CtrlPMRUFiles<CR>
 
+map <c-s> :w<CR>
 
 " Switch windows with Ctrl+<h,j,k,l>
 map <C-J> <C-W>j

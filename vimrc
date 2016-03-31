@@ -62,6 +62,7 @@ let g:jsx_ext_required = 0
 " MatchTagAlways file types (JS added (because of JSX), along with the defaults)
 let g:mta_filetypes = {
     \ 'html' : 1,
+    \ 'svg' : 1,
     \ 'xhtml' : 1,
     \ 'xml' : 1,
     \ 'javascript' : 1,

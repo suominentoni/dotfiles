@@ -53,6 +53,9 @@ au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 let NERDTreeShowHidden=1
 let g:NERDTreeDirArrows=0
 
+" Display quotes on every line in JSON files
+let g:vim_json_syntax_conceal = 0
+
 " JSX syntax highlighting in other than JSX files
 let g:jsx_ext_required = 0
 

@@ -122,12 +122,12 @@ map <C-L> <C-W>l
 vnoremap <C-c> :w !pbcopy<CR><CR>
 noremap <C-<Shift>-c> :r !pbpaste<CR><CR>
 
-:inoremap ( ()<Esc>i
-" :inoremap { {<Return><Return>}<Left><Up>
-:inoremap { {}<Esc>i
-:inoremap [ []<Esc>i
-:inoremap ' ''<Esc>i
-:inoremap " ""<Esc>i
+":inoremap ( ()<Esc>i
+"" :inoremap { {<Return><Return>}<Left><Up>
+":inoremap { {}<Esc>i
+":inoremap [ []<Esc>i
+":inoremap ' ''<Esc>i
+":inoremap " ""<Esc>i
 
 :nnoremap <C-b> :bnext<CR>
 

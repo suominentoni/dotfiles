@@ -17,12 +17,14 @@ Plugin 'rstacruz/sparkup'
 Plugin 'elzr/vim-json'
 Plugin 'groenewege/vim-less'
 Plugin 'guns/vim-clojure-static'
-Plugin 'tpope/vim-fireplace'
+"Plugin 'tpope/vim-fireplace'
 Plugin 'pangloss/vim-javascript'
+Plugin 'othree/yajs.vim'
 Plugin 'mxw/vim-jsx'
 Plugin 'raichoo/haskell-vim'
 Plugin 'valloric/MatchTagAlways'
 Plugin 'derekwyatt/vim-scala'
+Plugin 'tpope/vim-obsession'
 
 " file type based indentation
 filetype plugin indent on

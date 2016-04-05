@@ -25,7 +25,7 @@ Plugin 'raichoo/haskell-vim'
 Plugin 'valloric/MatchTagAlways'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'tpope/vim-obsession'
-
+Plugin 'leafgarland/typescript-vim'
 " file type based indentation
 filetype plugin indent on
 

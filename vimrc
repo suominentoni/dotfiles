@@ -46,14 +46,20 @@ nnoremap <silent> <leader>yw :call WindowSwap#MarkWindowSwap()<CR>
 nnoremap <silent> <leader>pw :call WindowSwap#DoWindowSwap()<CR>
 nnoremap <silent> <leader>ws :call WindowSwap#EasyWindowSwap()<CR>
 
+" reload .vimrc on save
+augroup reload_vimrc " {
+  autocmd!
+  autocmd BufWritePost $MYVIMRC source $MYVIMRC
+augroup END " }
+
 " file type based indentation
 filetype plugin indent on
 
 " how many columns text is indented with the reindent operations (<< and >>))
-set shiftwidth=2
+set shiftwidth=4
 
 " how many columns a tab counts for
-set tabstop=2
+set tabstop=4
 
 " hitting Tab in insert mode will produce the appropriate number of spaces.
 set expandtab
@@ -90,7 +96,7 @@ let g:mta_filetypes = {
     \}
 
 "let g:airline_theme='monochrome'
-let g:airline_theme='raven'
+let g:airline_theme='simple'
 
 let g:molokai_original = 1
 colorscheme molokai
@@ -125,7 +131,7 @@ set wildmenu
 set wildmode=full
 
 map <silent> <C-n> :NERDTreeFocus<CR>
-map <silent> <C-p> :CtrlPMRUFiles<CR>
+" map <silent> <C-p> :CtrlPMRUFiles<CR>
 
 map <c-s> :w<CR>
 

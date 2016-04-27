@@ -12,13 +12,13 @@ Plugin 'wesQ3/vim-windowswap'
 Plugin 'vim-scripts/bufkill.vim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'altercation/vim-colors-solarized'
-Bundle "daylerees/colour-schemes", { "rtp": "vim/" }
-Plugin 'Scrooloose/nerdtree'
+Bundle 'daylerees/colour-schemes', { 'rtp': 'vim/' }
+Plugin 'scrooloose/nerdtree'
 Plugin 'rstacruz/sparkup'
 Plugin 'elzr/vim-json'
 Plugin 'groenewege/vim-less'
 Plugin 'guns/vim-clojure-static'
-"Plugin 'tpope/vim-fireplace'
+Plugin 'tpope/vim-fireplace'
 Plugin 'pangloss/vim-javascript'
 Plugin 'othree/yajs.vim'
 Plugin 'mxw/vim-jsx'
@@ -29,8 +29,17 @@ Plugin 'tpope/vim-obsession'
 
 Plugin 'christoomey/vim-tmux-navigator'
 
+Plugin 'vimwiki/vimwiki'
+
 Plugin 'leafgarland/typescript-vim'
 call vundle#end()
+
+" Windowswap key bindings (vimwiki uses the 'ww' binding)
+let g:windowswap_map_keys = 0 "prevent default bindings
+nnoremap <silent> <leader>yw :call WindowSwap#MarkWindowSwap()<CR>
+nnoremap <silent> <leader>pw :call WindowSwap#DoWindowSwap()<CR>
+nnoremap <silent> <leader>ws :call WindowSwap#EasyWindowSwap()<CR>
+
 " file type based indentation
 filetype plugin indent on
 

@@ -2,9 +2,9 @@ set nocompatible
 filetype off "required for Vundle
 
 set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+call vundle#begin()
 
-Plugin 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-airline'
 Plugin 'wesQ3/vim-windowswap'
@@ -26,6 +26,7 @@ Plugin 'valloric/MatchTagAlways'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'tpope/vim-obsession'
 Plugin 'leafgarland/typescript-vim'
+call vundle#end()
 " file type based indentation
 filetype plugin indent on
 

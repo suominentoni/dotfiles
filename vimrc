@@ -6,7 +6,8 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'wesQ3/vim-windowswap'
 Plugin 'vim-scripts/bufkill.vim'
 Plugin 'ntpeters/vim-better-whitespace'

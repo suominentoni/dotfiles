@@ -26,6 +26,9 @@ Plugin 'raichoo/haskell-vim'
 Plugin 'valloric/MatchTagAlways'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'tpope/vim-obsession'
+
+Plugin 'christoomey/vim-tmux-navigator'
+
 Plugin 'leafgarland/typescript-vim'
 call vundle#end()
 " file type based indentation
@@ -111,11 +114,12 @@ map <silent> <C-p> :CtrlPMRUFiles<CR>
 
 map <c-s> :w<CR>
 
+" Not needed with Vim Tmux Navigator
 " Switch windows with Ctrl+<h,j,k,l>
-map <C-J> <C-W>j
-map <C-K> <C-W>k
-map <C-H> <C-W>h
-map <C-L> <C-W>l
+"map <C-J> <C-W>j
+"map <C-K> <C-W>k
+"map <C-H> <C-W>h
+"map <C-L> <C-W>l
 
 ":imap ` <Esc>
 ":vmap ` <Esc>

@@ -31,7 +31,13 @@ Plugin 'christoomey/vim-tmux-navigator'
 
 Plugin 'vimwiki/vimwiki'
 
+" Needed for tsuquyomi
+Plugin 'Shougo/vimproc.vim'
+
+" Typescript
 Plugin 'leafgarland/typescript-vim'
+Plugin 'Quramy/tsuquyomi'
+
 call vundle#end()
 
 " Windowswap key bindings (vimwiki uses the 'ww' binding)

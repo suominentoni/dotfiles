@@ -8,6 +8,7 @@ alias lsl='ls -GFhl'
 alias lsa='ls -GFha'
 alias cl='clear'
 alias g='git'
+alias gll='cl && g ll'
 alias cd..='cd ..'
 HISTSIZE=10000
 HISTFILE=~/.zsh_history

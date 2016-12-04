@@ -23,6 +23,7 @@
 	pr = pull --rebase
 	praise = blame
 	ftp = fetch --prune --all
+	g = grep -i -n
 [core]
 	editor = vim
 	autocrlf = false
